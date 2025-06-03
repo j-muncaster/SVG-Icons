@@ -1,0 +1,14 @@
+
+body {
+    font-family: 'poppins';
+    font-size: 16px;
+    background-color: white;
+    color: #0b1e6e;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.hidden { 
+    display: none; 
+}
