@@ -11,8 +11,9 @@
 /* 1. --- General Styles --- */
 
 body {
-    font-family: 'Poppins' 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    font-size: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
     background-color: white;
     color: #0b1e6e;
     margin: 0;
@@ -24,6 +25,19 @@ body {
     display: none; 
 }
 
-p {
+#hero p {
     text-align: left;
+    padding: 0 25px 0 25px;
+    font-size: 18px;
+}
+
+#logo {
+    width: 400px;
+    padding-top: 40px;
+}
+
+h3 {
+    font-size: 24px;
+    color: #0b1e6e;
+    font-weight: bolder;
 }
