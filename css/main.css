@@ -4,7 +4,7 @@
     CSS Guide
 
     1. General Styles
-    2. 
+    2. Raspberry Icon Animation
 
 */
 
@@ -41,3 +41,25 @@ h3 {
     color: #0b1e6e;
     font-weight: bolder;
 }
+
+/* 1. --- END General Styles --- */
+
+/* 2. --- Raspberry Icon Animation --- */
+
+#raspberry-leaf {
+    transform-box: fill-box;
+    transform-origin: center;
+}
+
+#raspberry-icon:hover #raspberry-leaf {
+    animation: wiggle 0.5s ease-in-out;
+}
+
+@keyframes wiggle {
+    0%  { transform: rotate(0deg); }
+    25% { transform: rotate(3deg); }
+    75% { transform: rotate(-3deg); }
+    100% { transform: rotate(0deg); }
+}
+
+/* 2. --- END Raspberry Icon Animation --- */
